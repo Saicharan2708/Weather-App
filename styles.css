@@ -1,0 +1,88 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #222;
+}
+
+#box {
+    background: #ffffffdd;
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+#city {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#city:focus {
+    border-color: #74ebd5;
+}
+.weather-result {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #e0efff;
+    border-radius: 8px;
+    border: 1px solid #bcd4e6;
+    color: #222;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+#temperature{
+    background-color: rgb(139, 152, 189);
+    border: 1px;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    text-decoration:solid;
+
+}
+
+#Mybutton {
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: #4da8da;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#Mybutton:hover {
+    background-color: #0077b6;
+}
