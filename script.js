@@ -1,7 +1,7 @@
 const res=document.getElementById("Mybutton");
 
 async function getData(lat,long){
-    const promise=await fetch(`http://api.weatherapi.com/v1/current.json?key=74de48abbbc04288a0595056251205&q=${lat},${long}&aqi=yes`);
+    const promise=await fetch(`https://api.weatherapi.com/v1/current.json?key=74de48abbbc04288a0595056251205&q=${lat},${long}&aqi=yes`);
     return await promise.json();
 }
 async function success(position){
